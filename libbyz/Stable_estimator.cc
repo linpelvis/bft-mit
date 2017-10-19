@@ -54,7 +54,7 @@ bool Stable_estimator::add(Reply_stable* m, bool mine) {
 	v.gep++;
       
       if (lc <= v.lp)
-	v.gep++;
+	val.gep++;
     
       if ((v.lec >= nle) && (v.gep >= nge)) {
 	est = v.lc;
